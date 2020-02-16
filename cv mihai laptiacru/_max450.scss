@@ -1,0 +1,29 @@
+@media (max-width:450px){
+    .mih_skills{
+        .mih_skills_inner{
+            grid-template-columns: 1fr;
+            margin: 0 auto;
+           align-items: center;
+            .mih_skills_left{
+                width: 33%;
+                padding: 0;
+                font-size: 20px;
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-left: 60px;
+                
+              
+                
+            }
+            .mih_skills_right{
+                width: 100%;
+                padding: 0;
+                font-size: 20px;
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-left: 60px;
+            
+            }
+        }
+    }
+}

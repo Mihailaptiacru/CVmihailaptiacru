@@ -1,0 +1,58 @@
+@media (max-width:400px){
+
+    .mih-cv{
+.mih-cv__left{
+    
+    align-items: center;
+    font-size: 10px;
+    .mih_personal_grid .general {
+    font-size: 0.8rem;
+    }
+.mih_personal_grid .general_I{
+    font-size: 0.8rem;
+    
+}
+.grid-end{
+    text-align: end;
+}
+}
+.mih-cv__right{
+    max-width: 100%;
+    width: 900px;
+    font-size: 12px;
+    .mih_name_right h1{
+        font-size: 2.2rem;
+    }
+    .mih_name_right p{
+        font-size: 1rem;
+    }
+}
+.mih_skills{
+    .mih_skills_inner{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+       align-items: center;
+        .mih_skills_left{
+            width: 33%;
+            padding: 0;
+            font-size: 15px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0;
+            
+            
+          
+            
+        }
+        .mih_skills_right{
+            width: 100%;
+            padding: 0;
+            font-size: 15px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0;
+            
+        
+        }
+    }
+}}}

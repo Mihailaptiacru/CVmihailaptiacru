@@ -1,0 +1,31 @@
+@media (max-width:950px){
+body{
+    font-size: 25px;
+}
+    .mih-cv {
+        
+        flex-wrap: wrap;
+    
+    .mih-cv__left{
+        max-width: 100%;
+        width: 900px;
+        align-items: center;
+        font-size: 1.5rem;
+        .mih_personal_grid .general {
+        font-size: 1.2rem;
+        }
+    .mih_personal_grid .general_I{
+        font-size: 1.2rem;
+        
+    }
+    .grid-end{
+        text-align: end;
+    }
+    }
+    .mih-cv__right{
+        max-width: 100%;
+        width: 900px;
+        font-size: 15px;
+    }
+}
+}
